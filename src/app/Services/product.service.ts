@@ -9,7 +9,7 @@ import { Product } from '../Models/product.model';
   providedIn: 'root',
 })
 export class ProductService {
-  private baseUrl = 'http://host1.open.uom.lk:8000/';
+  private baseUrl = 'https://host1.open.uom.lk/';
 
   constructor(private http: HttpClient) {}
   
