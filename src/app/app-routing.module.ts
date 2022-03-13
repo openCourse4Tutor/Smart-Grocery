@@ -5,7 +5,7 @@ import { ViewProductDetailsComponent } from './components/view-product-details/v
 
 const routes: Routes = [
   {path : '' , component: ProductsComponent},
-  {path : 'product-detail-view' , component: ViewProductDetailsComponent}];
+  {path : 'product-detail-view/:id' , component: ViewProductDetailsComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
