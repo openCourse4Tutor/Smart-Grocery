@@ -24,8 +24,7 @@ export class AddProductComponent implements OnInit {
 
   isDataUploading = false;
 
-  constructor(private fb: FormBuilder,
-    private productService :ProductService) {}
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {}
 
